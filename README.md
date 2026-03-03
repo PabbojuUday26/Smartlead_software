@@ -35,7 +35,6 @@ Agent names:
 ### Run from the command line
 
 ```bash
-cd Buildathon_project1
 python main.py
 ```
 
@@ -53,7 +52,6 @@ print(f"Names: {manager.get_names()}")
 ## Project Structure
 
 ```
-Buildathon_project1/
-├── agents.py   # Agent class and AgentManager
-└── main.py     # Entry point – prints agent count and names
+agents.py   # Agent class and AgentManager
+main.py     # Entry point – prints agent count and names
 ```
